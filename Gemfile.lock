@@ -18,7 +18,7 @@ GEM
       public_suffix (>= 2.0.2, < 7.0)
     base64 (0.3.0)
     benchmark (0.4.1)
-    bigdecimal (3.2.3)
+    bigdecimal (3.3.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -310,6 +310,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 232)
   http_parser.rb (~> 0.6.0)
+  jekyll
   jekyll-dash
   jekyll-feed (~> 0.12)
   tzinfo (>= 1, < 3)
