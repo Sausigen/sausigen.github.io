@@ -22,7 +22,7 @@
 title: Sausig's CTF writeups
 description: >- # this means to ignore newlines until "baseurl:"
  I do cybersecurity stuff. I'll occasionally post writeups here 
-baseurl: "" # the subpath of your site, e.g. /blog
+#baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sausigen.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: Sausigen
 
