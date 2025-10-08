@@ -50,7 +50,7 @@ void call_functions() {
 ```
 &nbsp;
 
-Inside ```call_functions``` there's a ```printf(buffer)``` call which allows me to perform a format string vulnerability.  I'm not going to explain how format string vulnerabilities work, but here's a great resource which I used when I first learned about them: [Exploit 101 - Format Strings](https://axcheron.github.io/exploit-101-format-strings/){:target="_blank"}
+Inside ```call_functions``` there's a ```printf(buffer)``` call which results in a format string vulnerability.  I'm not going to explain how format string vulnerabilities work, but here's a great resource which I used when I first learned about them: [Exploit 101 - Format Strings](https://axcheron.github.io/exploit-101-format-strings/){:target="_blank"}
 
 Later in the ```call_function``` the program will ask for an address to which it will then jump. Obviously I want to somehow execute ```win``` but I would need its address and since PIE is enabled the address will be randomized on each execution.
 
