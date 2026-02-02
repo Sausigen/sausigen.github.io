@@ -4,3 +4,10 @@
 
 layout: home
 ---
+
+{% assign items = site.pages| sort: "date" | reverse %}
+{% for item in items %}
+  <h2>
+    <a href="{{ item.url }}">{{ item.title }}</a>
+  </h2>
+{% endfor %}
